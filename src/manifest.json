@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Jira Filter",
+  "description": "Remove some useless stuff from the Jira activity stream.",
+  "version": "1.1",
+
+  "web_accessible_resources": ["script.js"],
+
+  "content_scripts": [{
+    "js": ["contentscript.js"],
+    "matches": ["http://*/*", "https://*/*"],
+    "all_frames": true
+  }]
+}
