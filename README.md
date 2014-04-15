@@ -33,3 +33,5 @@ A free Safari developer certificate is needed.
   
 ##License
 MIT License. See LICENSE.TXT.
+
+2014, [exensio](http://www.exensio.de)
