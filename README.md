@@ -1,4 +1,4 @@
-#JIRA Filter Plugin
+# JIRA Filter Plugin
 
 Remove some useless stuff from the JIRA activity stream.
 
@@ -6,35 +6,39 @@ Currently Removing:
 
   * Work log activity items
 
-##Download
+## [exensio GmbH Blog](https://www.exensio.de/news-medien)
+
+This repositroy is created for the blogpost: [JIRA Filter Browser Plugin](https://www.exensio.de/news-medien/newsreader-blog/jira-filter-browser-plugin)
+
+## Download
 Prebuild packages for Chrome, Safari and Firefox can be found in the [dist](dist)
 directory.
 
-##Package the plugin
+## Package the plugin
 
-###Safari
+### Safari
 A free [Safari developer](https://developer.apple.com/programs/safari/) certificate is needed.
 
   * Open the Extension Builder from the Safari Developer menu.
   * Add an existing extension: select the [JiraFilter.safariextension](JiraFilter.safariextension) directory.
   * Create package
   
-###Chrome
+### Chrome
   * See [Getting Started: Building a Chrome Extension - Load the extension](https://developer.chrome.com/extensions/getstarted#unpacked)
 
-###Firefox
+### Firefox
   * Built with [https://arantius.com/misc/greasemonkey/script-compiler.php](https://arantius.com/misc/greasemonkey/script-compiler.php)
   * The UUID is 8b899947-da08-4878-aee2-b952ce731db0
 
-##Changelog
-###1.1
+## Changelog
+### 1.1
   * Remove work log items where the remaining time was also updated.
   * Do not try to load more if there are no more entries.
 
-###1.0
+### 1.0
   * Initial release
   
-##License
+## License
 MIT License. See LICENSE.TXT.
 
 ©2014 [exensio GmbH](http://www.exensio.de)
